@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css\main-v2.css" rel="stylesheet" type="text/css">
+    <link href="css/main-v2.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <div class="main-box">
         <header class="header">
             <div class="header-subbox-left">logo</div>
             <div class="header-subbox-right">
-                <a href="main.html"><img class="menu-button" src="src/icons8-меню.svg"></a></div>
+                <a href="main.html"><img class="menu-button" src="src/icons8-меню.svg"></a>
+            </div>
         </header>
+
         <div class="block-1-poster">
             <div class="up-block-1-poster">
                 <div class="up-block-1-poster-left">
@@ -27,142 +31,90 @@
                 </div>
             </div>
             <div class="down-block-1-poster">
-                <div><a class="block-1-down-button-1" href="#footer-for-client"><img class="block-1-down-button-1-img" src="src/info.svg">о нас</a></div>
-                <div><a class="block-1-down-button-1" href="#pizza-anchor"><img class="block-1-down-button-1-img" src="src/pizza.svg">Пицца</a></div>
-                <div><a class="block-1-down-button-1" href="main.html"><img class="block-1-down-button-1-img" src="src/lapsha.svg">Лапша</a></div>
+                <div><a class="block-1-down-button-1" href="#footer-for-client"><img class="block-1-down-button-1-img"
+                            src="src/info.svg">о нас</a></div>
+                <div><a class="block-1-down-button-1" href="#pizza-anchor"><img class="block-1-down-button-1-img"
+                            src="src/pizza.svg">Пицца</a></div>
+                <div><a class="block-1-down-button-1" href="main.html"><img class="block-1-down-button-1-img"
+                            src="src/lapsha.svg">Лапша</a></div>
             </div>
         </div>
-        
+
         <div class="block-2">
-            <div id="pizza-anchor" class="block-2-header"><p>Пицца</p></div>
-            <div class="block-2-content">
-                <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                    <p class="block2-content-header">Пицца с сыром</p>
-                    <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                    <p class="block2-content-header">Пицца с сыром</p>
-                    <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                    <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                        <p class="block2-content-header">Пицца с сыром</p>
-                        <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
+            <div id="pizza-anchor" class="block-2-header">
+                <p>Пицца</p>
             </div>
             <div class="block-2-content">
-                <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                    <p class="block2-content-header">Пицца с сыром</p>
-                    <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                    <p class="block2-content-header">Пицца с сыром</p>
-                    <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                    <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                        <p class="block2-content-header">Пицца с сыром</p>
-                        <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
-            </div>
-            <div class="block-2-content">
-                <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                    <p class="block2-content-header">Пицца с сыром</p>
-                    <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                    <p class="block2-content-header">Пицца с сыром</p>
-                    <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                    <div class="block-2-content-item"><img class="image-block-2" src="src/block-2-content-item.jpg">
-                        <p class="block2-content-header">Пицца с сыром</p>
-                        <p class="block2-content-text">Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.</p>
-                    </div>
+                <script>
+                    const pizzaItems = [
+                        { name: "Пицца с сыром", description: "Получите нашу классическую сырную пиццу Манхэттен с соусом и корочкой на ваш выбор.", imgSrc: "src/block-2-content-item.jpg" },
+                        { name: "Пицца с грибами", description: "Пицца с грибами и сыром.", imgSrc: "src/block-2-content-item.jpg" },
+                        { name: "Пицца с пепперони", description: "Пицца с пепперони и сыром.", imgSrc: "src/block-2-content-item.jpg" }
+                    ];
+
+                    const block2Content = document.querySelector('.block-2-content');
+                    pizzaItems.forEach(item => {
+                        const itemDiv = document.createElement('div');
+                        itemDiv.className = 'block-2-content-item';
+                        itemDiv.innerHTML = `<img class="image-block-2" src="${item.imgSrc}">
+                                             <p class="block2-content-header">${item.name}</p>
+                                             <p class="block2-content-text">${item.description}</p>`;
+                        block2Content.appendChild(itemDiv);
+                    });
+                </script>
             </div>
         </div>
-        
 
         <div class="pizza-info-block">
-            <p class="pizza-info-text">Слово «пицца» впервые появилось в латинском тексте из центрального итальянского города Гаэта, тогда ещё входившего в состав Византийской империи, 
-                в 997 г. н. э.; в тексте говорится, что арендатор определённого имущества должен давать епископу 
-                Гаэты duodecim pizze («двенадцать пицц») каждое Рождество, а ещё двенадцать — каждое Пасхальное воскресенье.</p>
-            <p class="pizza-info-text">В 1957 году появилась пицца-полуфабрикат; к концу XX века огромное распространение получили готовые замороженные полуфабрикаты пиццы,
-                 которые перед употреблением достаточно разогреть в микроволновой печи или духовке.</p>
+            <p class="pizza-info-text">Слово «пицца» впервые появилось в латинском тексте из центрального итальянского
+                города Гаэта, тогда ещё входившего в состав Византийской империи,
+                в 997 г. н. э.; в тексте говорится, что арендатор определённого имущества должен давать епископу
+                Гаэты duodecim pizze («двенадцать пицц») каждое Рождество, а ещё двенадцать — каждое Пасхальное
+                воскресенье.</p>
+            <p class="pizza-info-text">В 1957 году появилась пицца-полуфабрикат; к концу XX века огромное
+                распространение получили готовые замороженные полуфабрикаты пиццы,
+                которые перед употреблением достаточно разогреть в микроволновой печи или духовке.</p>
         </div>
 
-            
-    <div class="block-3">
-            <div id="pizza-anchor" class="block-3-header"><p>Лапша</p></div>
+        <div class="block-3">
+            <div id="lapsha-anchor" class="block-3-header">
+                <p>Лапша</p>
+            </div>
             <div class="block-3-content">
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Лапша с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Пицца с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                </div>
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Пицца с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                </div>
-            </div>   
-            <div class="block-3-content">
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Пицца с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Пицца с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                </div>
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Пицца с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                </div>
-            </div>  
-            <div class="block-3-content">
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Пицца с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                    </div>
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Пицца с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                </div>
-                <div class="block-3-content-item"><img class="image-block-3" src="src/block-3-content-item.jpg">
-                    <p class="block3-content-header">Пицца с сыром</p>
-                    <p class="block3-content-text">Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.</p>
-                </div>
-            </div>     
+                <script>
+                    const lapshaItems = [
+                        { name: "Лапша с сыром", description: "Получите нашу классическую сырную лапшу с соусом и корочкой на ваш выбор.", imgSrc: "src/block-3-content-item.jpg" },
+                        { name: "Лапша с овощами", description: "Лапша с овощами и соусом.", imgSrc: "src/block-3-content-item.jpg" },
+                        { name: "Лапша с курицей", description: "Лапша с курицей и соусом.", imgSrc: "src/block-3-content-item.jpg" }
+                    ];
+
+                    const block3Content = document.querySelector('.block-3-content');
+                    lapshaItems.forEach(item => {
+                        const itemDiv = document.createElement('div');
+                        itemDiv.className = 'block-3-content-item';
+                        itemDiv.innerHTML = `<img class="image-block-3" src="${item.imgSrc}">
+                                             <p class="block3-content-header">${item.name}</p>
+                                             <p class="block3-content-text">${item.description}</p>`;
+                        block3Content.appendChild(itemDiv);
+                    });
+                </script>
+            </div>
         </div>
-        <div class="lapsha-info-block">
-            <p class="lapsha-info-text"> Точное время, когда изобрели лапшу, установить невозможно. 
-                Родиной продукта принято считать Китай, однако на территории
-                 Древнего Египта были найдены изображения людей, занимавшихся 
-                 изготовлением тонких полосок теста еще в IV веке до н.э.</p>
-            <p class="lapsha-info-text"> Происхождение слова также остается загадкой. 
-                Исследователи связывают название «лапша» с 
-                тюркскими корнями. Есть версия, что оно произошло от глагола «лакать». 
-                Французы переводят его как «червячок».</p>
-            <p class="lapsha-info-text"> В Европу мучной деликатес попал в XIII веке 
-                благодаря венецианскому купцу и путешественнику 
-                Марко Поло. В Италии продукт, мгновенно ставший культовым, 
-                обрел новое название – «паста». Так экспрессивные жители страны 
-                именуют все, что связано с макаронными изделиями.</p>
-        </div>
+
         <div class="footer-for-client">
-            <div id="footer-for-client" class="footer-for-cliens-box">
-                <div class="left-foter">
+            <div id="footer-for-client" class="footer-for-clients-box">
+                <div class="left-footer">
                     <p class="fot-h2">Найдите нас</p>
                     <p class="footer-for-text">adress-filller</p>
                 </div>
-                <div class="middle-foter">
+                <div class="middle-footer">
                     <p class="fot-h2">Часы работы</p>
                     <p class="footer-for-text-h3">с понедельника по субботу</p>
                     <p class="footer-for-text">с 9:00 до 19:00</p>
                     <p class="footer-for-text-h3">Воскресенье</p>
                     <p class="footer-for-text">10:00–18:00</p>
                 </div>
-                <div class="right-foter">
+                <div class="right-footer">
                     <p class="fot-h2">Наши номера</p>
                     <p class="footer-for-text">+7-800-555-35-35</p>
                     <p class="footer-for-text">+7-800-555-35-35</p>
@@ -170,6 +122,7 @@
                 </div>
             </div>
         </div>
+
         <footer>
             <div class="footer-info">
                 <p>+7-800-555-35-35</p>
@@ -193,4 +146,5 @@
         </footer>
     </div>
 </body>
+
 </html>
