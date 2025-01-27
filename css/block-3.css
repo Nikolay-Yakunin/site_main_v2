@@ -1,0 +1,48 @@
+.block-3{
+    background-color: black;
+}
+
+.block-3-header{
+    display: flex;
+    height: 40vh;
+    background-image: url('../src/block-2-headre-lapsha.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    font-size: 15vh;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.image-block-3{
+    width: 20vh;
+    height: 20vh;
+}
+
+.block-3-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.block-3-content-item{ 
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    height: 35vh;
+    width: 25vh;
+}
+
+.block3-content-header{
+    font-style: normal;
+    font-size: 18px;
+}
+
+.block3-content-text{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}

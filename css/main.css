@@ -1,0 +1,12 @@
+@import 'header.css';
+@import 'block-1.css';
+@import 'block-2.css';
+@import 'pizza-info-block.css';
+@import 'block-3.css';
+@import 'lapsha-info-block.css';
+@import 'footer-client.css';
+@import 'footer.css';
+
+body{
+    margin:0px;
+}

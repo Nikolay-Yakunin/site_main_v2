@@ -1,0 +1,262 @@
+body{
+    margin:0px;
+}
+.main-box{
+    display: inline-block;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 95vh;
+    margin: auto;
+}
+
+.header-subbox-left{
+    justify-content: right;
+    font-size: 5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header-subbox-right{
+    justify-content: right;
+}
+
+.menu-button{
+    width: 80%;
+    text-align: center;
+    justify-content: right;
+}
+.block-1-poster{
+    height: 80%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.up-block-1-poster{
+    display: flex;
+    justify-content: space-between;
+}
+
+.up-block-1-poster-left{
+    margin: 4vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.up-block-1-poster-left-text-1{
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.up-block-1-poster-left-text-2{
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.up-block-1-poster-left-text-3{
+    text-align: center;
+    font-size: 2vh;
+}
+
+.up-block-1-poster-pict{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 5%;
+}
+
+.up-block-1-poster-left-button{
+    background-color: aquamarine;
+    border-style: solid;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+
+.down-block-1-poster{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-1-down-button-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-1-down-button-1-img{
+    height: 9vh;
+}
+.block-2{
+    background-color: black;
+}
+
+.block-2-header{
+    display: flex;
+    height: 40vh;
+    background-image: url('../src/block-2-headre-pizza.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    font-size: 15vh;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.image-block-2{
+    width: 20vh;
+    height: 20vh;
+}
+
+.block-2-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.block-2-content-item{ 
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    height: 35vh;
+    width: 25vh;
+}
+
+.block2-content-header{
+    font-style: normal;
+    font-size: 18px;
+}
+
+.block2-content-text{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+.pizza-info-block{
+    background-color: rgb(204, 225, 248);
+}
+
+.pizza-info-text{
+    font-size: 4vh;
+}
+.block-3{
+    background-color: black;
+}
+
+.block-3-header{
+    display: flex;
+    height: 40vh;
+    background-image: url('../src/block-2-headre-lapsha.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    font-size: 15vh;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.image-block-3{
+    width: 20vh;
+    height: 20vh;
+}
+
+.block-3-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.block-3-content-item{ 
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    height: 35vh;
+    width: 25vh;
+}
+
+.block3-content-header{
+    font-style: normal;
+    font-size: 18px;
+}
+
+.block3-content-text{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+.lapsha-info-block{
+    background-color: rgb(204, 225, 248);
+}
+
+.lapsha-info-text{
+    font-size: 4vh;
+}
+.footer-for-client{
+    background-color: rgb(109, 106, 106);
+}
+
+.footer-for-cliens-box{
+    display: flex;
+    justify-content: space-between;
+    width: 80vh;
+    margin: auto;
+}
+
+.left-foter{
+    width: 20vh;
+    height: 30vh;
+    border-style: solid;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+.fot-h2{
+    font-weight:900;
+    font-size: 3vh;
+}
+
+.footer-for-text-h3{
+    font-size: 2vh;
+    font-weight: 900;
+}
+
+.middle-foter{
+    width: 20vh;
+    height: 30vh;
+    border-style: solid;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+.right-foter    {
+    width: 20vh;
+    height: 30vh;
+    border-style: solid;
+    border-radius: 2vh;
+    text-align: center;
+}
+footer{
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    border-radius: 2vh;
+    border-style: solid;
+    border-color: azure;
+    color: aliceblue;
+    padding: 1vh;
+}

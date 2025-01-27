@@ -1,0 +1,44 @@
+.footer-for-client{
+    background-color: rgb(109, 106, 106);
+}
+
+.footer-for-cliens-box{
+    display: flex;
+    justify-content: space-between;
+    width: 80vh;
+    margin: auto;
+}
+
+.left-foter{
+    width: 20vh;
+    height: 30vh;
+    border-style: solid;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+.fot-h2{
+    font-weight:900;
+    font-size: 3vh;
+}
+
+.footer-for-text-h3{
+    font-size: 2vh;
+    font-weight: 900;
+}
+
+.middle-foter{
+    width: 20vh;
+    height: 30vh;
+    border-style: solid;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+.right-foter    {
+    width: 20vh;
+    height: 30vh;
+    border-style: solid;
+    border-radius: 2vh;
+    text-align: center;
+}

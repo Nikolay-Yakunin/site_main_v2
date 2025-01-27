@@ -1,0 +1,27 @@
+.main-box{
+    display: inline-block;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 95vh;
+    margin: auto;
+}
+
+.header-subbox-left{
+    justify-content: right;
+    font-size: 5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header-subbox-right{
+    justify-content: right;
+}
+
+.menu-button{
+    width: 80%;
+    text-align: center;
+    justify-content: right;
+}

@@ -1,0 +1,13 @@
+footer{
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    border-radius: 2vh;
+    border-style: solid;
+    border-color: azure;
+    color: aliceblue;
+    padding: 1vh;
+}
